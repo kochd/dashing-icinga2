@@ -336,7 +336,7 @@ systemctl status dashing-icinga2.service
 #### Debian
 
 ```bash
-cp tools/systemd/dashing-icinga2.service /lib/systemd/system/
+cp tools/systemd/dashing-icinga2.service /etc/systemd/system/
 systemctl daemon-reload
 systemctl start dashing-icinga2.service
 systemctl status dashing-icinga2.service
